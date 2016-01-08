@@ -57,13 +57,11 @@ module.exports = StyleSheet.create({
   slide: {
     flex: 1,
     alignSelf: 'stretch',
-    alignItems: 'center'
+    alignItems: 'center',
+    borderWidth: 5
   },
   slideContent: {
-    marginTop: 30,
-    marginRight: 5,
-    marginBottom: 5,
-    marginLeft: 5,
+    marginTop: 25,
     flex: 1,
     flexDirection: 'column',
     alignSelf: 'stretch',
